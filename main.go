@@ -1,14 +1,19 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
-	bite := []byte{'h', 'e', 'l', 'l', 'o'}
-	reverseString(bite)
-	fmt.Println(string(bite))
+	fmt.Println(lengthOfLastWord("Hello World"))
 }
-func reverseString(s []byte) {
-	for i := 0; i < len(s)/2; i++ {
-		s[i], s[len(s)-1-i] = s[len(s)-1-i], s[i]
+func lengthOfLastWord(s string) int {
+	str := strings.Split(s, " ")
+	for i := len(str) - 1; i >= 0; i-- {
+		if len(str[i]) != 0 {
+			return len(str[i])
+		}
 	}
+	return -1
 }
