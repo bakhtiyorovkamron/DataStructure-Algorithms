@@ -1,6 +1,8 @@
 package leetcode
 
-import "fmt"
+import (
+	"fmt"
+)
 
 type ListNode struct {
 	Val  int
@@ -22,11 +24,21 @@ func (l *ListNode) AddTail(value int) {
 func (l *ListNode) AddHead(value int) {
 	l.Next = &ListNode{value, l.Next}
 }
-func (l *ListNode) Iterate() {
-	for l != nil {
-		fmt.Println(l.Val)
-		l = l.Next
+func (list *ListNode) Print() {
+	temp := list
+	for temp != nil {
+		fmt.Print(temp.Val, " ")
+		temp = temp.Next
 	}
+	fmt.Println("")
+}
+func (list *List) Print() {
+	temp := list.head
+	for temp != nil {
+		fmt.Print(temp.value, " ")
+		temp = temp.next
+	}
+	fmt.Println("")
 }
 func DeleteDuplicates(head *ListNode) *ListNode {
 	curr := head
@@ -69,4 +81,24 @@ func MiddleNode(head *ListNode) *ListNode {
 		newNode = &ListNode{arr[i], newNode}
 	}
 	return newNode
+}
+func (list *List) Reverse() {
+	curr := list.head
+	var next, prev *Node
+	for curr != nil {
+		next = curr.next
+		curr.next = prev
+		prev = curr
+		curr = next
+	}
+	list.head = prev
+}
+func IsPalindrome(head *ListNode) bool {
+	str := "opo"
+	for i := 0 ; i < len(str) ; i++ {
+		if string(str[i]) != string(str[len(str)-1-i]) {
+			return false
+		}
+	}
+	return true
 }
