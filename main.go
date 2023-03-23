@@ -2,9 +2,11 @@ package main
 
 import (
 	"data-structure-algorithms/leetcode"
+	"fmt"
 )
 
 func main() {
-	arr := []int{4, 1, 2, 1, 2}
-	leetcode.SingleNumber(arr)
+	nums := []int{1, 2, 3, 4}
+	fmt.Println(leetcode.ContainsDuplicate(nums))
+
 }
