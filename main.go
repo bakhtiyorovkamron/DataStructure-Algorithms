@@ -6,7 +6,6 @@ import (
 )
 
 func main() {
-	nums := []int{1, 2, 3, 4}
-	fmt.Println(leetcode.ContainsDuplicate(nums))
-
+	// fmt.Println(leetcode.BackspaceCompare("ab##", "c#d#"))
+	fmt.Println(leetcode.SubtractProductAndSum(234))
 }

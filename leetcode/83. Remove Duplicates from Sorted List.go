@@ -93,7 +93,7 @@ func (list *List) Reverse() {
 	}
 	list.head = prev
 }
-func IsPalindrome(head *ListNode) bool {
+func IsPalindromeNode(head *ListNode) bool {
 	str := "opo"
 	for i := 0 ; i < len(str) ; i++ {
 		if string(str[i]) != string(str[len(str)-1-i]) {
