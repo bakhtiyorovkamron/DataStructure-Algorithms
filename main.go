@@ -6,6 +6,5 @@ import (
 )
 
 func main() {
-	// fmt.Println(leetcode.BackspaceCompare("ab##", "c#d#"))
-	fmt.Println(leetcode.SubtractProductAndSum(234))
+	fmt.Println(leetcode.BackspaceCompare("ab#c", "ad#c"))
 }
