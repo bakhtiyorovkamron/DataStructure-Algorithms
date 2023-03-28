@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println(leetcode.AreAlmostEqual("asdf", "fsda"))
+	fmt.Println(leetcode.AreAlmostEqual("asdf", "fsa"))
 }
