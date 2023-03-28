@@ -1,6 +1,7 @@
 package leetcode
 
 func BackspaceCompare(s string, t string) bool {
+	//"ab#c", "ad#c"
 	ssharp, tsharp := "", ""
 	ssharpCount, tsharpCount := 0, 0
 	for i := len(s) - 1; i >= 0; i-- {

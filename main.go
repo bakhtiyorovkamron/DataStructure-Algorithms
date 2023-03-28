@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println(leetcode.BackspaceCompare("ab#c", "ad#c"))
+	fmt.Println(leetcode.AreAlmostEqual("asdf", "fsda"))
 }
