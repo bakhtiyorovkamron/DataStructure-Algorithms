@@ -2,7 +2,6 @@ package main
 
 import (
 	"data-structure-algorithms/leetcode"
-	"fmt"
 )
 
 func main() {
@@ -34,7 +33,7 @@ func main() {
 	// }
 	// (leetcode.Preorder(&tree))
 	//leetcode.NextGreaterElement([]int{1, 3, 5, 2, 4}, []int{6, 5, 4, 3, 2, 1, 7})
-	fmt.Println(leetcode.MaximumWealth([][]int{{1, 2, 3}, {3, 2, 1}}))
+	(leetcode.GradingStudents([]int32{4, 73, 67, 38, 33}))
 }
 
 // [1,3,5,6,2,4]

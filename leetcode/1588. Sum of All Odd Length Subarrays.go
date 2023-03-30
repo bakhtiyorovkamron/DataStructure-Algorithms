@@ -1,13 +1,17 @@
 package leetcode
 
 func SumOddLengthSubarrays(arr []int) int {
-	for i := 1; i <= len(arr); i++ {
-		if i%2 != 0 {
-			// subArray := []int{}
-			for j := 0; j < len(arr); j++ {
-
+	n := len(arr)
+	ans := 0
+	for i := range arr {
+		s := 0
+		for j := i; j < n; j++ {
+			s += arr[j]
+			if (j-i+1)%2 == 1 {
+				ans += s
 			}
 		}
 	}
-	return 8
+	return ans
 }
+// 1, 4, 2, 5, 3
