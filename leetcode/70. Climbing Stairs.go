@@ -1,8 +1,11 @@
 package leetcode
 
 func ClimbStairs(n int) int {
-	for i := 0; i < n; i++ {
-		
+	j := 1
+	temp := j
+	for i := 1; i < n; i++ {
+		j = j + temp
+		temp = j - temp
 	}
-	return 0
+	return j
 }
