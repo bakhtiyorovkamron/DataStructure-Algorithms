@@ -1,10 +1,7 @@
 package main
 
-import "fmt"
+import "data-structure-algorithms/leetcode"
 
 func main() {
-	fmt.Println("Hello")
-	// (leetcode.SumIndicesWithKSetBits([]int{5, 10, 1, 5, 2}, 1))
+	(leetcode.LeftRightDifference([]int{10, 4, 8, 3}))
 }
-
-// [1,3,5,6,2,4]
