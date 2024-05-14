@@ -2,9 +2,8 @@ package main
 
 import (
 	"data-structure-algorithms/leetcode"
-	"fmt"
 )
 
 func main() {
-	fmt.Println(leetcode.MinOperations([]int{2, 11, 10, 1, 3}, 10))
+	(leetcode.LargestAltitude([]int{-4, -3, -2, -1, 4, 3, 2}))
 }
