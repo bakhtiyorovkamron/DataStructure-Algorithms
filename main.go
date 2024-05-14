@@ -5,5 +5,10 @@ import (
 )
 
 func main() {
-	(leetcode.LargestAltitude([]int{-4, -3, -2, -1, 4, 3, 2}))
+	(leetcode.DiagonalSum([][]int{
+		{1, 1, 1, 1},
+		{1, 1, 1, 1},
+		{1, 1, 1, 1},
+		{1, 1, 1, 1},
+	}))
 }
