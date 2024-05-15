@@ -25,16 +25,16 @@ func partition(arr []int, low, high int) ([]int, int) {
 	arr[i], arr[high] = arr[high], arr[i]
 	return arr, i
 }
-func quickSort(arr []int, low, high int) []int {
-	if low < high {
-		var p int
-		arr, p = partition(arr, low, high)
-		arr = quickSort(arr, low, p-1)
-		arr = quickSort(arr, p+1, high)
-	}
-	return arr
-}
+// func quickSort(arr []int, low, high int) []int {
+// 	if low < high {
+// 		var p int
+// 		arr, p = partition(arr, low, high)
+// 		arr = quickSort(arr, low, p-1)
+// 		arr = quickSort(arr, p+1, high)
+// 	}
+// 	return arr
+// }
 
-func quickSortStart(arr []int) []int {
-	return quickSort(arr, 0, len(arr)-1)
-}
+// func quickSortStart(arr []int) []int {
+// 	return quickSort(arr, 0, len(arr)-1)
+// }

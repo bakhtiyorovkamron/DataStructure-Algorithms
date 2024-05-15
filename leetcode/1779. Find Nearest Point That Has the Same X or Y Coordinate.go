@@ -23,9 +23,4 @@ func NearestValidPoint(x int, y int, points [][]int) int {
 	}
 	return mapValidPoints[min]
 }
-func Abs(x int) int {
-	if x < 0 {
-		return -x
-	}
-	return x
-}
+

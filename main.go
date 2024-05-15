@@ -2,13 +2,11 @@ package main
 
 import (
 	"data-structure-algorithms/leetcode"
+	"fmt"
 )
 
 func main() {
-	(leetcode.DiagonalSum([][]int{
-		{1, 1, 1, 1},
-		{1, 1, 1, 1},
-		{1, 1, 1, 1},
-		{1, 1, 1, 1},
-	}))
+	fmt.Println(leetcode.FindIntersectionValues([]int{
+		4, 3, 2, 3, 1,
+	}, []int{2, 2, 5, 2, 3, 6}))
 }
