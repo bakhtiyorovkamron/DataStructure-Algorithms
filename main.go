@@ -1,7 +1,10 @@
 package main
 
-import "data-structure-algorithms/leetcode"
+import (
+	"data-structure-algorithms/leetcode"
+	"fmt"
+)
 
 func main() {
-	(leetcode.LeftRightDifference([]int{10, 4, 8, 3}))
+	fmt.Println(leetcode.MinOperations([]int{2, 11, 10, 1, 3}, 10))
 }
