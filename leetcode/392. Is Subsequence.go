@@ -3,7 +3,7 @@ package leetcode
 func IsSubsequence(s string, t string) bool {
 
 	if s == "" {
-		return false
+		return true
 	}
 	sIndex := 0
 

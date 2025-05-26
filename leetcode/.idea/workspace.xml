@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3bcbe4ac-0179-4860-8cb1-511a08c79dbc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/1299. Replace Elements with Greatest Element on Right Side.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14. Longest Common Prefix.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/347. Top K Frequent Elements.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/58. Length of Last Word.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/238. Product of Array Except Self.go" beforeDir="false" afterPath="$PROJECT_DIR$/238. Product of Array Except Self.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/392. Is Subsequence.go" beforeDir="false" afterPath="$PROJECT_DIR$/392. Is Subsequence.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/645. Set Mismatch.go" beforeDir="false" afterPath="$PROJECT_DIR$/645. Set Mismatch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2tpzzQFaGCDCUpTpTJqulUdtfhk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/kamronbahtiyorov/go/src/DataStructure-Algorithms/leetcode",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-33c477a475b1-e0158606a674-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-241.19072.18" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-GO-241.19072.18" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

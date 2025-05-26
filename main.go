@@ -1,12 +1,18 @@
 package main
 
 import (
-	"data-structure-algorithms/leetcode"
-	"fmt"
+	"data-structure-algorithms/dfs"
 )
 
 func main() {
-	fmt.Println(leetcode.FindIntersectionValues([]int{
-		4, 3, 2, 3, 1,
-	}, []int{2, 2, 5, 2, 3, 6}))
+	root := &dfs.TreeNode{
+		Val: 1,
+	}
+	root.Left = &dfs.TreeNode{Val: 2}
+	root.Right = &dfs.TreeNode{Val: 3}
+	root.Left.Left = &dfs.TreeNode{Val: 4}
+	root.Left.Right = &dfs.TreeNode{Val: 5}
+	root.Right.Left = &dfs.TreeNode{Val: 6}
+	root.Right.Right = &dfs.TreeNode{Val: 7}
+	dfs.SumTree(root)
 }

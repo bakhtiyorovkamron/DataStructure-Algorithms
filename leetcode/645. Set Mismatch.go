@@ -1,19 +1,15 @@
 package leetcode
 
+import "fmt"
+
 func FindErrorNums(nums []int) []int {
-	var dup, missing = 0,1
+	n := 1
 	for i := 0; i < len(nums); i++ {
-		var count = 0
-		for j := 0; j < len(nums); j++ {
-			if nums[i] == nums[j] {
-				count++
-			}
+		fmt.Println(nums[i], n)
+		if nums[i] != n {
+			return []int{nums[i], n}
 		}
-		if count == 2 {
-			dup = i
-		} else {
-			missing = i
-		}
+		n++
 	}
-	return []int{dup, missing}
+	return []int{}
 }
